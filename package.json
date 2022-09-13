@@ -1,0 +1,14 @@
+{
+  "name": "atom-language-cairov0.1",
+  "version": "1.0.0",
+  "description": "Cairo v0.10 language support for Atom",
+  "keywords": [
+    "cairo",
+    "starknet"
+  ],
+  "author": "",
+  "license": "MIT"
+  "engines":{
+    "atom": "*"
+  }
+}
