@@ -36,7 +36,7 @@
     'patterns': [
       {
         'name': 'comment.line.number-sign'
-        'begin': '//'
+        'begin': '#|//'
         'beginCaptures':
           '0':
             'name': 'punctuation.definition.comment'
@@ -117,7 +117,7 @@
             'name': 'storage.type.function.cairo'
           '2':
             'name': 'entity.name.function.cairo'
-        'end': '\\{'
+        'end': '(?<=:)|\\{'
         'patterns': [
           {'include': '#comment'}
           {'include': '#function-implicit'}
@@ -274,4 +274,4 @@
         'match': '(?<![\\w$])(cast)(?![\\w$])'
         'name': 'keyword.operator.cast.cairo'
       }
-    ]
+   ]
